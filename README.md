@@ -56,7 +56,7 @@ User Question → Similarity Search → Context Retrieval → LLM Answer
 ## 👨‍💻 Author
 
 **Your Name**  
-[GitHub](https://github.com/yourusername) • [LinkedIn](https://linkedin.com/in/yourprofile)
+[GitHub](https://github.com/Tusharvimal) • [LinkedIn](https://www.linkedin.com/in/tusharvimal/)
 
 ---
 
