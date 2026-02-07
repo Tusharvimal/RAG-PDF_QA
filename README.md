@@ -2,7 +2,7 @@
 
 An intelligent PDF Q&A application using **Retrieval-Augmented Generation (RAG)**. Upload documents, get AI-powered answers instantly.
 
-🔗 **[Live Demo](#)** *(Add link after deployment)*
+🔗 **[Live Demo](#)** *https://rag-pdfapp.streamlit.app/*
 
 ## 🎯 What It Does
 
@@ -29,7 +29,7 @@ Upload any PDF → Ask questions → Get accurate, context-aware answers powered
 ## 🚀 Quick Setup
 ```bash
 # Clone repo
-git clone https://github.com/yourusername/rag-pdf-qa.git
+git clone https://github.com/Tusharvimal/RAG-PDF_QA.git
 cd rag-pdf-qa
 
 # Install dependencies
@@ -51,7 +51,11 @@ User Question → Similarity Search → Context Retrieval → LLM Answer
 
 ## 📸 Screenshots
 
-*(Add 1-2 screenshots here after deployment)*
+### Main Interface
+![App Interface](screenshots/screenshot1.png)
+
+### AI-Powered Answers
+![Demo](screenshots/screenshot2.png)
 
 ## 👨‍💻 Author
 
