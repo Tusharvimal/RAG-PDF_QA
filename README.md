@@ -52,10 +52,10 @@ User Question → Similarity Search → Context Retrieval → LLM Answer
 ## 📸 Screenshots
 
 ### Main Interface
-![App Interface](screenshots/screenshot1.png)
+![App Interface](screenshots/first.png)
 
 ### AI-Powered Answers
-![Demo](screenshots/screenshot2.png)
+![Demo](screenshots/second.png)
 
 ## 👨‍💻 Author
 
