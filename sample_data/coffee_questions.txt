@@ -1,0 +1,82 @@
+============================================================
+  RAG TEST QUESTIONS — "The History & Science of Coffee"
+============================================================
+Use these questions to test your RAG pipeline against
+the provided PDF (rag_test_document.pdf).
+
+------------------------------------------------------------
+CATEGORY A — Simple Recall (Factual, single-chunk answers)
+------------------------------------------------------------
+
+Q1. Where did coffee plants originally come from?
+
+Q2. What is the name of the goat herder in the Ethiopian legend associated with coffee's discovery?
+
+Q3. What were early coffeehouses in Persia called?
+
+Q4. Which country is the world's largest coffee producer today?
+
+Q5. What chemical compound in coffee blocks adenosine receptors in the brain?
+
+Q6. What is the approximate half-life of caffeine in most adults?
+
+Q7. At what temperature range is coffee typically roasted?
+
+Q8. Which Pope gave coffee his approval, helping it gain acceptance in Europe?
+
+------------------------------------------------------------
+CATEGORY B — Multi-Hop / Reasoning (Requires combining info)
+------------------------------------------------------------
+
+Q9. How does the roasting level of a coffee bean affect both its caffeine content and its flavor profile?
+
+Q10. A person drinks coffee at 3:00 PM. Based on information in the document, approximately how much caffeine from that cup would still be in their system at 9:00 PM? Explain your reasoning.
+
+Q11. Compare and contrast espresso and cold brew in terms of brewing method and the resulting taste characteristics.
+
+Q12. Why might a light roast coffee be described as more "complex" in flavor than a dark roast, even though dark roasts taste bolder?
+
+Q13. How did the colonial era contribute to coffee becoming a global commodity? Name at least two countries or regions involved.
+
+------------------------------------------------------------
+CATEGORY C — Tricky / Edge-Case (Tests precision & boundaries)
+------------------------------------------------------------
+
+Q14. The document mentions that coffee contains over how many chemical compounds? Are all of these present before roasting?
+
+Q15. Is it true that dark roasts have more caffeine than light roasts? What does the document actually say?
+
+Q16. What health benefits are associated with coffee consumption, and is there any limit mentioned?
+
+Q17. Who smuggled coffee beans into India, and how many did he bring?
+
+Q18. What is the Maillard reaction, and why is it important in the context of coffee?
+
+Q19. Does the document say anything about coffee being unhealthy? What is the actual stance presented?
+
+Q20. What role did Sufi monks play in coffee history, and in which country did this occur?
+
+============================================================
+  EXPECTED ANSWER SOURCES (for validation)
+============================================================
+Q1  → Page 1, "Origins and Early History"
+Q2  → Page 1, "Origins and Early History"
+Q3  → Page 1, "Origins and Early History"
+Q4  → Page 1, "The Global Spread"
+Q5  → Page 2, "The Science Behind the Brew"
+Q6  → Page 3, Quick Fact box
+Q7  → Page 2, "Roasting: Where Flavor Is Born"
+Q8  → Page 1, "Origins and Early History"
+Q9  → Pages 2–3, combine "Roasting" + Quick Fact
+Q10 → Page 3, Quick Fact (caffeine half-life calculation)
+Q11 → Page 3, "Brewing Methods and Their Impact"
+Q12 → Page 2, "Roasting: Where Flavor Is Born" + light/dark roast descriptions
+Q13 → Page 1, "The Global Spread"
+Q14 → Page 2, "The Science Behind the Brew" + roasting info
+Q15 → Page 2, Quick Fact (common myth — answer is opposite)
+Q16 → Page 3, "Health Effects of Coffee"
+Q17 → Page 1, "The Global Spread" (Baba Budan, 7 beans)
+Q18 → Page 2, "Roasting: Where Flavor Is Born"
+Q19 → Page 3, "Health Effects of Coffee"
+Q20 → Page 1, "Origins and Early History"
+============================================================

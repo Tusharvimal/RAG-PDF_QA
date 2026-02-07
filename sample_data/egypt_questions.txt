@@ -1,0 +1,129 @@
+ANCIENT EGYPT PDF - TEST QUESTIONS
+===================================
+
+Copy and paste these questions into your RAG app to test it!
+
+EASY QUESTIONS (Should get 100% correct)
+----------------------------------------
+
+1. Where is Ancient Egypt located?
+
+2. Who called Egypt "the gift of the Nile"?
+
+3. How tall was the Great Pyramid originally?
+
+4. What is the Rosetta Stone?
+
+5. What happened during the Weighing of the Heart ceremony?
+
+6. How long is the Nile River?
+
+7. Who was the architect of the Step Pyramid of Djoser?
+
+8. When did King Narmer unite Egypt?
+
+
+MEDIUM QUESTIONS (Testing comprehension)
+-----------------------------------------
+
+9. Why was the Nile River important to Ancient Egypt?
+
+10. How did ancient Egyptians build the pyramids?
+
+11. What rights did women have in Ancient Egypt?
+
+12. What was the mummification process?
+
+13. Who deciphered hieroglyphics and how?
+
+14. What gods were important in Egyptian religion?
+
+15. What games did Egyptian children play?
+
+16. What was the Egyptian diet like?
+
+
+HARD QUESTIONS (Testing synthesis across document)
+---------------------------------------------------
+
+17. What were the major achievements of Ancient Egypt?
+
+18. How did Ancient Egypt end?
+
+19. What did children do in Ancient Egypt?
+
+20. What inventions came from Ancient Egypt?
+
+21. Describe Egyptian religious beliefs about the afterlife.
+
+22. What was daily life like for ordinary Egyptians?
+
+
+MULTI-DOCUMENT QUESTIONS (Use with Coffee PDF too)
+---------------------------------------------------
+
+23. What topics are covered in these documents?
+
+24. Tell me about the Nile River and coffee's origins. How are they similar?
+
+25. What did ancient Egyptians invent?
+
+26. Where did coffee come from?
+
+
+EXPECTED ANSWERS (Sample)
+--------------------------
+
+Question: "Where is Ancient Egypt located?"
+Expected Answer: Along the banks of the Nile River in northeastern Africa
+
+Question: "How tall was the Great Pyramid originally?"
+Expected Answer: 146.5 meters (481 feet)
+
+Question: "Who deciphered hieroglyphics?"
+Expected Answer: Jean-François Champollion in 1822 using the Rosetta Stone
+
+Question: "What rights did women have in Ancient Egypt?"
+Expected Answer: Own property, conduct business, initiate divorce, serve as priestesses, and some became pharaohs
+
+Question: "How did the ancient Egyptians build the pyramids?"
+Expected Answer: Using ramps, levers, and teams of paid laborers (not slaves) who worked in rotating shifts
+
+
+TESTING CHECKLIST
+-----------------
+
+For each question, check:
+☐ Does the answer make sense?
+☐ Click "View Source Chunks" - are they relevant?
+☐ Does the answer match the information in the chunks?
+☐ If it says "I don't have enough information", check the chunks - does the info actually exist?
+
+If getting poor results:
+☐ Increase chunk size to 400-500
+☐ Increase overlap to 80-100
+☐ Increase top_k to 4-5
+☐ Re-process the PDF
+
+
+SETTINGS RECOMMENDATIONS
+------------------------
+
+For best results with this document:
+
+Chunk Size: 400-500 characters
+Overlap: 80-100 characters
+Top K: 3-5 chunks
+Temperature: 0.3-0.5
+
+
+WHAT SUCCESS LOOKS LIKE
+-----------------------
+
+✅ Easy questions: 100% accurate answers
+✅ Medium questions: 85-95% accurate answers
+✅ Hard questions: 75-85% accurate (may need to synthesize from multiple chunks)
+✅ Multi-doc questions: Correctly distinguishes between Egypt and Coffee topics
+
+
+Happy Testing! 🚀
