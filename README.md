@@ -1,66 +1,66 @@
-# 🤖 RAG-Based PDF Question Answering
+# RAG-Based PDF Question Answering System
 
-An intelligent PDF Q&A application using **Retrieval-Augmented Generation (RAG)**. Upload documents, get AI-powered answers instantly.
+A PDF Q&A app that uses Retrieval-Augmented Generation to answer questions about your documents. Built with Python, Streamlit, and Groq's Llama 3.1.
 
-🔗 **[Live Demo](#)** *https://rag-pdfapp.streamlit.app/*
+🔗 **[Try it live](https://rag-pdfapp.streamlit.app/)**
 
-## 🎯 What It Does
+## What it does
 
-Upload any PDF → Ask questions → Get accurate, context-aware answers powered by AI.
+Upload a PDF, ask questions about it, and get AI-generated answers based on the actual content. The app uses vector embeddings and similarity search to find relevant sections before generating responses.
 
-**Try it:** Use the built-in demo PDFs or upload your own documents.
+You can try it with the built-in sample PDFs or upload your own.
 
-## ✨ Key Features
+## Features
 
-- 📄 Multi-PDF support with real-time preview
-- 🔍 Vector similarity search (FAISS)
-- 🤖 AI-powered responses (Groq Llama 3.1)
-- ⚡ Adjustable parameters (chunk size, temperature, top-k)
-- 🎯 Demo mode with sample documents
-- 🔒 Rate limiting & security controls
+- Upload multiple PDFs at once
+- Live PDF preview in the browser
+- Adjustable RAG parameters (chunk size, retrieval count, temperature)
+- Vector similarity search using FAISS
+- Powered by Groq's Llama 3.1 8B model
+- Demo mode with sample documents
+- Rate limiting and file size controls
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-**Backend:** Python, FAISS, Sentence Transformers  
-**LLM:** Groq API (Llama 3.1 8B Instant)  
-**Frontend:** Streamlit  
-**NLP:** PyPDF, all-MiniLM-L6-v2 embeddings
+- **Python** for backend logic
+- **Streamlit** for the web interface
+- **FAISS** for vector similarity search
+- **Sentence Transformers** (all-MiniLM-L6-v2) for embeddings
+- **Groq API** for LLM inference
+- **PyPDF** for text extraction
 
-## 🚀 Quick Setup
+## How to run locally
 ```bash
-# Clone repo
 git clone https://github.com/Tusharvimal/RAG-PDF_QA.git
-cd rag-pdf-qa
+cd RAG-PDF_QA
 
-# Install dependencies
 pip install -r requirements.txt
 
-# Add your Groq API key to .env
-GROQ_API_KEY=your_key_here
+# Create a .env file and add your Groq API key
+echo "GROQ_API_KEY=your_key_here" > .env
 
-# Run app
 streamlit run app.py
 ```
 
-## 🏗️ How It Works
+## How it works
 ```
-PDF Upload → Text Extraction → Chunking → Embeddings → FAISS Index
-                                                            ↓
-User Question → Similarity Search → Context Retrieval → LLM Answer
+PDF → Extract text → Split into chunks → Generate embeddings → Store in FAISS
+                                                                      ↓
+Question → Generate embedding → Find similar chunks → Send to LLM → Get answer
 ```
 
-## 📸 Screenshots
+## Screenshots
 
 ### Main Interface
 ![App Interface](screenshots/first.png)
 
-### AI-Powered Answers
+### Example Output
 ![Demo](screenshots/second.png)
 
-## 👨‍💻 Author
+## Author
 
-**Your Name**  
-[GitHub](https://github.com/Tusharvimal) • [LinkedIn](https://www.linkedin.com/in/tusharvimal/)
+**Tushar Vimal**  
+[GitHub](https://github.com/Tusharvimal) | [LinkedIn](https://www.linkedin.com/in/tusharvimal/)
 
 ---
 
